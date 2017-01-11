@@ -31,7 +31,7 @@ html {
 
 @font-face{
 	font-family: light;
-	src: url("TitilliumWeb-ExtraLight.ttf");
+	src: url("assets/TitilliumWeb-ExtraLight.ttf");
 }
 body {
 	margin: 0;
@@ -80,7 +80,7 @@ img.skillPics{
 }
 header{
 	position: relative;
-	background:url("bkgBlur.jpg");
+	background:url("assets/bkgBlur.jpg");
 	background-size: cover;
 	height: 20%;
 
