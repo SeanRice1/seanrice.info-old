@@ -11,6 +11,7 @@ html {
 }
 
 .toolTip .toolTipText{
+	visibility: hidden;
 	font-family: light;
 	padding:10px;
 	background-color: black;
@@ -26,6 +27,7 @@ html {
 }
 
 .toolTip:hover .toolTipText{
+	visibility: visible;
 	opacity: 1;
 }
 
@@ -78,6 +80,17 @@ img.skillPics{
 	height: 50px;
 	width: 50px;
 }
+
+img.skillPics2{
+	height: 40px;
+	width: 40px;
+}
+p.small{
+	margin: 0;
+	font-family: light;
+	
+}
+
 header{
 	position: relative;
 	background:url("assets/bkgBlur.jpg");
