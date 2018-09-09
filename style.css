@@ -66,7 +66,6 @@ ul.indented{
 
 }
 
-
 div.introLinks{
 	text-align: center;
 }
@@ -74,11 +73,21 @@ div.introLinks{
 img.introLinks{
 	height: 35px;
 	width: 35px;
+	transition: 0.5s;
+}
+
+img.introLinks:hover{
+	transform: translate(2px, -2px)
 }
 
 img.skillPics{
 	height: 50px;
 	width: 50px;
+	transition: 0.5s;
+}
+
+img.skillPics:hover{
+	transform: translate(5px, -5px);
 }
 
 img.skillPics2{
@@ -99,7 +108,6 @@ header{
 
 }
 
-
 div.navigation{
 	margin-top: 10%;
 	text-align: center;
@@ -114,11 +122,11 @@ a.navigation{
 	margin-left:2%;
 	padding: 25px;
 	text-decoration: none;
-
+	transition: 0.5s;
 }
 
 a.navigation:hover{
-	background-color: rgba(41, 41, 41, 0.35);
+	font-size:30px;
 }
 
 div#sectionDivider1{
@@ -128,11 +136,11 @@ div#sectionDivider1{
 }
 div#sectionDivider2{
 	height: 30px;
-	background-color: #f2aa2c;
+	background-color:#ec5a41 ;
 }
 div#sectionDivider3{
 	height: 30px;
-	background-color: #ec5a41;
+	background-color: #f2aa2c;
 }
 div#sectionDivider4{
 	height: 30px;
@@ -170,6 +178,13 @@ p.skillHeader{
 	
 }
 
+div#ack{
+	margin-top: 222px;
+	margin-left: 16px;
+	text-align: left;
+	font-size: 16px;
+}
+
 a.ack:link{
 	color: #B8B8B8;
 }
@@ -178,13 +193,12 @@ a.ack:visited{
 	color: #626676;
 }
 footer{
-	padding: 10%;
+	height: 256px;
 	background-color: #232323;
 	border-style: solid;
 	border-color: grey;
 	border-width:1px;
 	color: grey;
-
 }
 
 
